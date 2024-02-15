@@ -1448,3 +1448,14 @@
     sprite: Clothing/Uniforms/Jumpsuit/familiar_garbs.rsi
   - type: Clothing
     sprite: Clothing/Uniforms/Jumpsuit/familiar_garbs.rsi
+
+  - type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformDedProduction1
+  name: DedProduction1
+  description: A terribly stitched jumpsuit. It looks like he doesn't know how to sew.
+  components:
+  - type: Sprite
+    sprite:
+  - type: Clothing
+    sprite:
