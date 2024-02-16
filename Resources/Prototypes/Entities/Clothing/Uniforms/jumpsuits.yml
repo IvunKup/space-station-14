@@ -1459,3 +1459,36 @@
     sprite:
   - type: Clothing
     sprite:
+
+  - type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformDedProduction2
+  name: DedProduction2
+  description: A crooked stitched jumpsuit. It looks like he still doesn't know how to sew.
+  components:
+  - type: Sprite
+    sprite:
+  - type: Clothing
+    sprite:
+
+  - type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformDedProduction3
+  name: DedProduction3
+  description: A middling stitched jumpsuit. It looks like he started studying how to sew.
+  components:
+  - type: Sprite
+    sprite:
+  - type: Clothing
+    sprite:
+
+  - type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformDedProduction4
+  name: DedProduction4
+  description: A magnificently stitched jumpsuit. He bought it.
+  components:
+  - type: Sprite
+    sprite:
+  - type: Clothing
+    sprite:
