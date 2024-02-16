@@ -925,3 +925,47 @@
       - state: equipped-INNERCLOTHING-jumpskirt
       - state: equipped-INNERCLOTHING-shirt
         color: "#b30000"
+
+  - type: entity
+  parent:ClothingUniformSkirtBase
+  id: ClothingUniformSkirtDedProduction1
+  name: DedSkirtProduction1
+  description: Who gave the old man a needle?!
+  components:
+  - type: Sprite
+    sprite:
+  - type: Clothing
+    sprite:
+
+  - type: entity
+  parent:ClothingUniformSkirtBase
+  id: ClothingUniformSkirtDedProduction2
+  name: DedSkirtProduction2
+  description: Apparently there was a needle left in the collar.
+  components:
+  - type: Sprite
+    sprite:
+  - type: Clothing
+    sprite:
+
+  - type: entity
+  parent:ClothingUniformSkirtBase
+  id: ClothingUniformSkirtDedProduction3
+  name: DedSkirtProduction3
+  description: This is a kilt...
+  components:
+  - type: Sprite
+    sprite:
+  - type: Clothing
+    sprite:
+
+  - type: entity
+  parent:ClothingUniformSkirtBase
+  id: ClothingUniformSkirtDedProduction4
+  name: DedSkirtProduction4
+  description: Just right for garden work.
+  components:
+  - type: Sprite
+    sprite:
+  - type: Clothing
+    sprite:
