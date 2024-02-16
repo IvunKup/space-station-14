@@ -129,3 +129,14 @@
     sprite: Clothing/Neck/Scarfs/zebra.rsi
   - type: Clothing
     sprite: Clothing/Neck/Scarfs/zebra.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckScarfDed's
+  name: snake
+  description: "Aww, did I get blood on your suit?"
+  components:
+  - type: Sprite
+    sprite: 
+  - type: Clothing
+    sprite: 
