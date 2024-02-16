@@ -151,3 +151,19 @@
     clothingVisuals:
       neck:
       - state: trans-equipped
+
+- type: entity
+  parent: ClothingNeckPinBase
+  id: ClothingNeckDed'sShoulder
+  name: shoulder
+  description: be epic do law
+  components:
+  - type: Sprite
+    sprite: 
+    layers:
+    - state: professional
+  - type: Clothing
+    sprite: 
+    clothingVisuals:
+      neck:
+      - state: Professional
