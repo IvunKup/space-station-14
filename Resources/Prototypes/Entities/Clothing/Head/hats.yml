@@ -964,3 +964,47 @@
       sprite: Clothing/Head/Hats/cowboyhatbountyhunter.rsi
     - type: Clothing
       sprite: Clothing/Head/Hats/cowboyhatbountyhunter.rsi
+      
+- type: entity
+  parent: ClothingHeadBase
+  id: Ded'sOldTarpaulinHat
+  name: TarpaulinHat
+  description: Good for sailing
+  components:
+    - type: Sprite
+      sprite:
+    - type: Clothing
+      sprite:
+      
+- type: entity
+  parent: ClothingHeadBase
+  id: Ded'sUshanka
+  name: THEUshanka
+  description: It smells like kebab
+  components:
+    - type: Sprite
+      sprite:
+    - type: Clothing
+      sprite:
+      
+- type: entity
+  parent: ClothingHeadBase
+  id: Ded'sKeparik
+  name: Keparik
+  description: "Comrade Lenin?"
+  components:
+    - type: Sprite
+      sprite:
+    - type: Clothing
+      sprite:
+      
+- type: entity
+  parent: ClothingHeadBase
+  id: Ded'sUnusualBounty Hat
+  name: Bounty Hat
+  description: "Scotshaco for two refund"
+  components:
+    - type: Sprite
+      sprite:
+    - type: Clothing
+      sprite:
