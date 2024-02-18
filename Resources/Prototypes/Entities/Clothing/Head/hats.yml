@@ -1000,8 +1000,8 @@
       
 - type: entity
   parent: ClothingHeadBase
-  id: Ded'sUnusualBounty Hat
-  name: Bounty Hat
+  id: Ded'sUnusualBountyHat
+  name: BountyHat
   description: "Stout Shako for two Refined!"
   components:
     - type: Sprite
