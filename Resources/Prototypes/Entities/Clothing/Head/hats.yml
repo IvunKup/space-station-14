@@ -1002,7 +1002,7 @@
   parent: ClothingHeadBase
   id: Ded'sUnusualBounty Hat
   name: Bounty Hat
-  description: "Scotshaco for two refund"
+  description: "Stout Shako for two Refined!"
   components:
     - type: Sprite
       sprite:
