@@ -233,7 +233,7 @@
     solutions:
       tank:
         reagents:
-        - ReagentId: Water
+        - ReagentId: BraveBull
 #         This is *100, 000* on /tg/
           Quantity: 10000
         maxVol: 10000
