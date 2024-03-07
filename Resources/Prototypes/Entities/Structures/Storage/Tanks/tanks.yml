@@ -211,3 +211,34 @@
     - type: ExaminableSolution
       solution: tank
 
+- type: entity
+  parent: StorageTank
+  id: beerBarrel
+  name: Beer Barrel
+  description: Rock and stone!
+  suffix: Full
+  components:
+  - type: Sprite
+    sprite: #Structures/Storage/tanks.rsi
+    layers:
+      - state: #highwatertank-2
+      - state: #highwatertank-2-1
+        map: ["enum.SolutionContainerLayers.Fill"]
+        visible: false
+  - type: Appearance
+  - type: SolutionContainerVisuals
+    maxFillLevels: 7
+    fillBaseName: beerBarrel
+  - type: SolutionContainerManager
+    solutions:
+      tank:
+        reagents:
+        - ReagentId: Water
+#         This is *100, 000* on /tg/
+          Quantity: 10000
+        maxVol: 10000
+#   It's pressurized...
+  - type: ExaminableSolution
+    solution: tank
+  - type: ReagentTank
+    transferAmount: 100
